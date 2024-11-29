@@ -7,7 +7,12 @@ public class DiagonalSum {
 	@Test
 	public void testDiagonalSum()
 	{
-		diagonalSum(new int[][] {{1,2,3,4,5},{4,5,6,5,6},{7,8,9,7,8},{1,2,3,4,5},{1,2,3,4,5}});
+		diagonalSum(new int[][] {
+			{1,2,3,4,5},
+			{4,5,6,5,6},
+			{7,8,9,7,8},
+			{1,2,3,4,5},
+			{1,2,3,4,5}});
 	}
 	
 //	int[][] nums={{1,2,3},{4,5,6},{7,8,9}};
